@@ -5,22 +5,19 @@
 
 # To set up in Ubuntu 20.04+  
 
-```
-# Install Doxbox  
-sudo apt install dosbox 
-doxbox 
 
-# Inside dosbox (give it some path in your host machine) 
-mount c /home/nam/ee213 
+    # Install Doxbox  
+    sudo apt install dosbox 
+    doxbox 
 
-c: 
+    # Inside dosbox (give it some path in your host machine) 
+    mount c /home/nam/ee213 
 
-# Assemble and run 
-nasm c.asm -o c.com 
-afd c.com 
+    c: 
 
-# Assemble with Listing 
-nasm c.asm -l c.lst -o c.com 
+    # Assemble and run 
+    nasm c.asm -o c.com 
+    afd c.com 
 
-
-``` 
+    # Assemble with Listing 
+    nasm c.asm -l c.lst -o c.com 
