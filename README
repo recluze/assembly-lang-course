@@ -21,3 +21,6 @@
 
     # Assemble with Listing 
     nasm c.asm -l c.lst -o c.com 
+
+
+Zip file contains the 16-bit NASM and "Advanced Fullscreen Debugger". 
